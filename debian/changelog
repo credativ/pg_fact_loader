@@ -1,6 +1,7 @@
 pg-fact-loader (1.6.0-2) unstable; urgency=medium
 
   * Team upload for PostgreSQL 13.
+  * Disable 16_1_2_features test, it's flaky.
 
  -- Christoph Berg <myon@debian.org>  Fri, 16 Oct 2020 13:59:54 +0200
 
