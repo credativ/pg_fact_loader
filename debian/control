@@ -31,3 +31,14 @@ Depends: postgresql-11, ${shlibs:Depends}, ${misc:Depends}
 Description: Build fact tables asynchronously with Postgres
  Use queue tables to build fact tables asynchronously for PostgreSQL 11.
 
+Package: postgresql-12-pg-fact-loader
+Architecture: any
+Depends: postgresql-12, ${shlibs:Depends}, ${misc:Depends}
+Description: Build fact tables asynchronously with Postgres
+ Use queue tables to build fact tables asynchronously for PostgreSQL 12.
+
+Package: postgresql-13-pg-fact-loader
+Architecture: any
+Depends: postgresql-13, ${shlibs:Depends}, ${misc:Depends}
+Description: Build fact tables asynchronously with Postgres
+ Use queue tables to build fact tables asynchronously for PostgreSQL 13.

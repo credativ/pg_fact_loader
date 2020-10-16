@@ -1,3 +1,9 @@
+pg-fact-loader (1.6.0-2) unstable; urgency=medium
+
+  * Team upload for PostgreSQL 13.
+
+ -- Christoph Berg <myon@debian.org>  Fri, 16 Oct 2020 13:59:54 +0200
+
 pg-fact-loader (1.6.0-1) unstable; urgency=medium
 
   * Change regproc to text to allow pgupgrade 
