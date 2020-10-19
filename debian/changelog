@@ -1,3 +1,12 @@
+pg-fact-loader (1.6.0-3) unstable; urgency=medium
+
+  * Use dh --with pgxs.
+  * R³: no.
+  * DH 13.
+  * debian/tests: Use 'make' instead of postgresql-server-dev-all.
+
+ -- Christoph Berg <myon@debian.org>  Mon, 19 Oct 2020 16:26:16 +0200
+
 pg-fact-loader (1.6.0-2) unstable; urgency=medium
 
   * Team upload for PostgreSQL 13.
