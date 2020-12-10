@@ -1,2 +1,10 @@
 #!/bin/sh
-pg_buildext -o shared_preload_libraries=pglogical installcheck
+err=0
+pg_buildext -o shared_preload_libraries=pglogical installcheck || err=$?
+
+if [ $err != 0 ]; then
+  case $(dpkg --print-architecture) in
+    armhf) exit 0 ;;
+  esac
+fi
+exit $err

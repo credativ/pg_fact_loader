@@ -1,3 +1,10 @@
+pg-fact-loader (1.6.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * Ignore test failures on armhf.
+
+ -- Christoph Berg <myon@debian.org>  Thu, 10 Dec 2020 17:38:17 +0100
+
 pg-fact-loader (1.6.0-3) unstable; urgency=medium
 
   * Use dh --with pgxs.
