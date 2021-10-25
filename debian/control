@@ -8,8 +8,8 @@ Rules-Requires-Root: no
 Homepage: https://github.com/enova/pg_fact_loader
 Vcs-Git: https://github.com/enova/pg_fact_loader.git
 
-Package: postgresql-13-pg-fact-loader
+Package: postgresql-14-pg-fact-loader
 Architecture: any
-Depends: postgresql-13, ${shlibs:Depends}, ${misc:Depends}
+Depends: postgresql-14, ${shlibs:Depends}, ${misc:Depends}
 Description: Build fact tables asynchronously with Postgres
- Use queue tables to build fact tables asynchronously for PostgreSQL 13.
+ Use queue tables to build fact tables asynchronously for PostgreSQL 14.

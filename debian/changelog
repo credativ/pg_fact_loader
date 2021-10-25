@@ -1,3 +1,9 @@
+pg-fact-loader (1.6.0-5) unstable; urgency=medium
+
+  * Team upload for PostgreSQL 14.
+
+ -- Christoph Berg <myon@debian.org>  Mon, 25 Oct 2021 11:24:23 +0200
+
 pg-fact-loader (1.6.0-4) unstable; urgency=medium
 
   * Team upload.
